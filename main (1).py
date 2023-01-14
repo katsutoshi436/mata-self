@@ -34,13 +34,13 @@ async def on_ready():
 		activity = discord.Activity(
 			type=discord.ActivityType.streaming,
 			application_id = application_id,
-			name = "Люблю Ксюшку<3",
-            details = "Люблю Ксюшку<3",
+			name = "ваш текст",
+            details = "ваш текст",
 			assets = {
 			  'large_image' : str(large_image_id),
-			  'large_text':f'https://discord.gg/restplace'
+			  'здесь могла быть ваша реклама'
 			},
-			url = "https://twitch.tv/mr4at"
+			url = "ссылка на твич"
 			)
 		)
 
